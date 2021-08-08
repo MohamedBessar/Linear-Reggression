@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 ###########################
 
 ####### Read the data #####################
-data = pd.read_csv('ex1data1.txt', header= None)
+data = pd.read_csv('ex1data1.txt', header= None) #The name of my file you can change it 
 x = data.iloc[:,0] #Read first column
 y = data.iloc[:,1] #Read second column
 m = len(y)
